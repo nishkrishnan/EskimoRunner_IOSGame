@@ -7,7 +7,17 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "Character.h"
 
-@interface Eskimo : SKSpriteNode
+@interface Eskimo : Character
+@property BOOL jumping;
+@property BOOL shooting;
+@property(strong, nonatomic)NSArray* jumpingFrames;
 
+-(void)performRun;
+-(void)performShoot;
+-(void)performJump;
+-(void)performDuck;
+-(void)clearBullet;
++(void)loadAssets;
 @end

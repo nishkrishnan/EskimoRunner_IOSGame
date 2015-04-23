@@ -7,7 +7,13 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "Character.h"
 
-@interface Bird : SKSpriteNode
+@interface Bird : Character
+
+
+-(void)performFly;
+-(void)performDie;
++(void)loadAssets;
 
 @end

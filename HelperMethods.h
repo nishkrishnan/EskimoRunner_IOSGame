@@ -10,4 +10,6 @@
 
 @interface HelperMethods : NSObject
 
++(float)randomValueBetween:(float)low andValue:(float)high;
+
 @end

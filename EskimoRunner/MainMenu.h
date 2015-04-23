@@ -7,7 +7,8 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
+#import "GameScene.h"
 
 @interface MainMenu : SKScene
-
+-(BOOL)isInButton: (CGPoint)loc andName:(NSString*)name;
 @end

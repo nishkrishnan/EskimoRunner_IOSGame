@@ -10,4 +10,9 @@
 
 @implementation HelperMethods
 
++(float)randomValueBetween:(float)low andValue:(float)high {
+    return (((float) arc4random() / 0xFFFFFFFFu) * (high - low)) + low;
+}
+
+
 @end
