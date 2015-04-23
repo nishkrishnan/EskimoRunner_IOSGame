@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C14470C518CA8819009B0EED /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = C14470C418CA8819009B0EED /* Level.m */; };
+		C14470C818CB5D09009B0EED /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = C14470C718CB5D09009B0EED /* MainMenu.m */; };
+		C14470CA18CC1B1B009B0EED /* playButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C14470C918CC1B1B009B0EED /* playButton.png */; };
 		C1824DFA1886108C00C9294E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1824DF91886108C00C9294E /* Foundation.framework */; };
 		C1824DFC1886108C00C9294E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1824DFB1886108C00C9294E /* CoreGraphics.framework */; };
 		C1824DFE1886108C00C9294E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1824DFD1886108C00C9294E /* UIKit.framework */; };
@@ -16,7 +19,7 @@
 		C1824E0C1886108C00C9294E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E0B1886108C00C9294E /* AppDelegate.m */; };
 		C1824E0F1886108C00C9294E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1824E0D1886108C00C9294E /* Main.storyboard */; };
 		C1824E121886108C00C9294E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E111886108C00C9294E /* ViewController.m */; };
-		C1824E151886108C00C9294E /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E141886108C00C9294E /* MyScene.m */; };
+		C1824E151886108C00C9294E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E141886108C00C9294E /* GameScene.m */; };
 		C1824E171886108C00C9294E /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C1824E161886108C00C9294E /* Spaceship.png */; };
 		C1824E191886108C00C9294E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1824E181886108C00C9294E /* Images.xcassets */; };
 		C1824E201886108C00C9294E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1824E1F1886108C00C9294E /* XCTest.framework */; };
@@ -24,6 +27,20 @@
 		C1824E221886108C00C9294E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1824DFD1886108C00C9294E /* UIKit.framework */; };
 		C1824E2A1886108C00C9294E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1824E281886108C00C9294E /* InfoPlist.strings */; };
 		C1824E2C1886108C00C9294E /* EskimoRunnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E2B1886108C00C9294E /* EskimoRunnerTests.m */; };
+		C1824E401889FAA300C9294E /* fg_mainlevel.png in Resources */ = {isa = PBXBuildFile; fileRef = C1824E3F1889FAA300C9294E /* fg_mainlevel.png */; };
+		C1824E43188A0D2200C9294E /* Eskimo.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E42188A0D2200C9294E /* Eskimo.m */; };
+		C1824E4B188AE6F800C9294E /* esk_atlas.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C1824E4A188AE6F800C9294E /* esk_atlas.atlas */; };
+		C1824E4D188B21C700C9294E /* obstacles_atlas.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C1824E4C188B21C700C9294E /* obstacles_atlas.atlas */; };
+		C1824E50188B38FF00C9294E /* yeti.m in Sources */ = {isa = PBXBuildFile; fileRef = C1824E4F188B38FF00C9294E /* yeti.m */; };
+		C193848C18BEB6890000FE74 /* bg_mainlevel.png in Resources */ = {isa = PBXBuildFile; fileRef = C193848B18BEB6890000FE74 /* bg_mainlevel.png */; };
+		C193848E18BEC9760000FE74 /* touchbegin.png in Resources */ = {isa = PBXBuildFile; fileRef = C193848D18BEC9760000FE74 /* touchbegin.png */; };
+		C193849118BED47B0000FE74 /* GameOver.m in Sources */ = {isa = PBXBuildFile; fileRef = C193849018BED47B0000FE74 /* GameOver.m */; };
+		C193849318BEDA6A0000FE74 /* bg_menu.png in Resources */ = {isa = PBXBuildFile; fileRef = C193849218BEDA6A0000FE74 /* bg_menu.png */; };
+		C193849618C0211A0000FE74 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = C193849518C0211A0000FE74 /* Bird.m */; };
+		C193849818C0219C0000FE74 /* monster_atlas.atlas in Resources */ = {isa = PBXBuildFile; fileRef = C193849718C0219C0000FE74 /* monster_atlas.atlas */; };
+		C193849E18C256A60000FE74 /* Character.m in Sources */ = {isa = PBXBuildFile; fileRef = C193849D18C256A60000FE74 /* Character.m */; };
+		C19384A118C266640000FE74 /* HelperMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = C19384A018C266640000FE74 /* HelperMethods.m */; };
+		C1F063F1189D9CD300E50088 /* Physics.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F063F0189D9CD300E50088 /* Physics.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +54,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C14470C318CA8819009B0EED /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		C14470C418CA8819009B0EED /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		C14470C618CB5D09009B0EED /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		C14470C718CB5D09009B0EED /* MainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenu.m; sourceTree = "<group>"; };
+		C14470C918CC1B1B009B0EED /* playButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playButton.png; sourceTree = "<group>"; };
 		C1824DF61886108C00C9294E /* EskimoRunner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EskimoRunner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1824DF91886108C00C9294E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C1824DFB1886108C00C9294E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -51,8 +73,8 @@
 		C1824E0E1886108C00C9294E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1824E101886108C00C9294E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C1824E111886108C00C9294E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C1824E131886108C00C9294E /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
-		C1824E141886108C00C9294E /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		C1824E131886108C00C9294E /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		C1824E141886108C00C9294E /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		C1824E161886108C00C9294E /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
 		C1824E181886108C00C9294E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C1824E1E1886108C00C9294E /* EskimoRunnerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EskimoRunnerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +82,27 @@
 		C1824E271886108C00C9294E /* EskimoRunnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EskimoRunnerTests-Info.plist"; sourceTree = "<group>"; };
 		C1824E291886108C00C9294E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C1824E2B1886108C00C9294E /* EskimoRunnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EskimoRunnerTests.m; sourceTree = "<group>"; };
+		C1824E3F1889FAA300C9294E /* fg_mainlevel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fg_mainlevel.png; sourceTree = "<group>"; };
+		C1824E41188A0D2200C9294E /* Eskimo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Eskimo.h; sourceTree = "<group>"; };
+		C1824E42188A0D2200C9294E /* Eskimo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Eskimo.m; sourceTree = "<group>"; };
+		C1824E4A188AE6F800C9294E /* esk_atlas.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = esk_atlas.atlas; sourceTree = "<group>"; };
+		C1824E4C188B21C700C9294E /* obstacles_atlas.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = obstacles_atlas.atlas; sourceTree = "<group>"; };
+		C1824E4E188B38FF00C9294E /* yeti.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = yeti.h; sourceTree = "<group>"; };
+		C1824E4F188B38FF00C9294E /* yeti.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = yeti.m; sourceTree = "<group>"; };
+		C193848B18BEB6890000FE74 /* bg_mainlevel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg_mainlevel.png; path = obstacles_atlas.atlas/bg_mainlevel.png; sourceTree = "<group>"; };
+		C193848D18BEC9760000FE74 /* touchbegin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = touchbegin.png; sourceTree = "<group>"; };
+		C193848F18BED47B0000FE74 /* GameOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOver.h; sourceTree = "<group>"; };
+		C193849018BED47B0000FE74 /* GameOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOver.m; sourceTree = "<group>"; };
+		C193849218BEDA6A0000FE74 /* bg_menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_menu.png; sourceTree = "<group>"; };
+		C193849418C0211A0000FE74 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		C193849518C0211A0000FE74 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		C193849718C0219C0000FE74 /* monster_atlas.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = monster_atlas.atlas; sourceTree = "<group>"; };
+		C193849C18C256A60000FE74 /* Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Character.h; sourceTree = "<group>"; };
+		C193849D18C256A60000FE74 /* Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Character.m; sourceTree = "<group>"; };
+		C193849F18C266640000FE74 /* HelperMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelperMethods.h; path = ../HelperMethods.h; sourceTree = "<group>"; };
+		C19384A018C266640000FE74 /* HelperMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelperMethods.m; path = ../HelperMethods.m; sourceTree = "<group>"; };
+		C1F063EF189D9CD300E50088 /* Physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Physics.h; sourceTree = "<group>"; };
+		C1F063F0189D9CD300E50088 /* Physics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Physics.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,13 +164,39 @@
 		C1824E011886108C00C9294E /* EskimoRunner */ = {
 			isa = PBXGroup;
 			children = (
+				C14470C918CC1B1B009B0EED /* playButton.png */,
+				C193849F18C266640000FE74 /* HelperMethods.h */,
+				C19384A018C266640000FE74 /* HelperMethods.m */,
+				C193849718C0219C0000FE74 /* monster_atlas.atlas */,
+				C193848D18BEC9760000FE74 /* touchbegin.png */,
+				C1824E3F1889FAA300C9294E /* fg_mainlevel.png */,
+				C193848B18BEB6890000FE74 /* bg_mainlevel.png */,
+				C1824E4C188B21C700C9294E /* obstacles_atlas.atlas */,
+				C1824E4A188AE6F800C9294E /* esk_atlas.atlas */,
 				C1824E0A1886108C00C9294E /* AppDelegate.h */,
 				C1824E0B1886108C00C9294E /* AppDelegate.m */,
 				C1824E0D1886108C00C9294E /* Main.storyboard */,
+				C1824E41188A0D2200C9294E /* Eskimo.h */,
+				C1824E42188A0D2200C9294E /* Eskimo.m */,
+				C14470C318CA8819009B0EED /* Level.h */,
+				C14470C418CA8819009B0EED /* Level.m */,
 				C1824E101886108C00C9294E /* ViewController.h */,
 				C1824E111886108C00C9294E /* ViewController.m */,
-				C1824E131886108C00C9294E /* MyScene.h */,
-				C1824E141886108C00C9294E /* MyScene.m */,
+				C14470C618CB5D09009B0EED /* MainMenu.h */,
+				C14470C718CB5D09009B0EED /* MainMenu.m */,
+				C1824E131886108C00C9294E /* GameScene.h */,
+				C1824E141886108C00C9294E /* GameScene.m */,
+				C193849418C0211A0000FE74 /* Bird.h */,
+				C193849518C0211A0000FE74 /* Bird.m */,
+				C193848F18BED47B0000FE74 /* GameOver.h */,
+				C193849018BED47B0000FE74 /* GameOver.m */,
+				C1F063EF189D9CD300E50088 /* Physics.h */,
+				C1F063F0189D9CD300E50088 /* Physics.m */,
+				C1824E4E188B38FF00C9294E /* yeti.h */,
+				C193849218BEDA6A0000FE74 /* bg_menu.png */,
+				C1824E4F188B38FF00C9294E /* yeti.m */,
+				C193849C18C256A60000FE74 /* Character.h */,
+				C193849D18C256A60000FE74 /* Character.m */,
 				C1824E161886108C00C9294E /* Spaceship.png */,
 				C1824E181886108C00C9294E /* Images.xcassets */,
 				C1824E021886108C00C9294E /* Supporting Files */,
@@ -211,6 +280,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = TheBusiness;
 				TargetAttributes = {
+					C1824DF51886108C00C9294E = {
+						DevelopmentTeam = 54BWCG4U6D;
+					};
 					C1824E1D1886108C00C9294E = {
 						TestTargetID = C1824DF51886108C00C9294E;
 					};
@@ -240,10 +312,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C193848C18BEB6890000FE74 /* bg_mainlevel.png in Resources */,
 				C1824E061886108C00C9294E /* InfoPlist.strings in Resources */,
+				C1824E401889FAA300C9294E /* fg_mainlevel.png in Resources */,
+				C193849318BEDA6A0000FE74 /* bg_menu.png in Resources */,
 				C1824E191886108C00C9294E /* Images.xcassets in Resources */,
+				C193848E18BEC9760000FE74 /* touchbegin.png in Resources */,
+				C1824E4B188AE6F800C9294E /* esk_atlas.atlas in Resources */,
+				C14470CA18CC1B1B009B0EED /* playButton.png in Resources */,
+				C1824E4D188B21C700C9294E /* obstacles_atlas.atlas in Resources */,
 				C1824E171886108C00C9294E /* Spaceship.png in Resources */,
 				C1824E0F1886108C00C9294E /* Main.storyboard in Resources */,
+				C193849818C0219C0000FE74 /* monster_atlas.atlas in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,10 +342,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1824E151886108C00C9294E /* MyScene.m in Sources */,
+				C19384A118C266640000FE74 /* HelperMethods.m in Sources */,
+				C1824E151886108C00C9294E /* GameScene.m in Sources */,
 				C1824E121886108C00C9294E /* ViewController.m in Sources */,
+				C193849618C0211A0000FE74 /* Bird.m in Sources */,
 				C1824E0C1886108C00C9294E /* AppDelegate.m in Sources */,
+				C193849118BED47B0000FE74 /* GameOver.m in Sources */,
+				C14470C518CA8819009B0EED /* Level.m in Sources */,
+				C1824E43188A0D2200C9294E /* Eskimo.m in Sources */,
+				C1F063F1189D9CD300E50088 /* Physics.m in Sources */,
+				C1824E50188B38FF00C9294E /* yeti.m in Sources */,
 				C1824E081886108C00C9294E /* main.m in Sources */,
+				C193849E18C256A60000FE74 /* Character.m in Sources */,
+				C14470C818CB5D09009B0EED /* MainMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,10 +481,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EskimoRunner/EskimoRunner-Prefix.pch";
 				INFOPLIST_FILE = "EskimoRunner/EskimoRunner-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,10 +498,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "EskimoRunner/EskimoRunner-Prefix.pch";
 				INFOPLIST_FILE = "EskimoRunner/EskimoRunner-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
 				WRAPPER_EXTENSION = app;
 			};
@@ -476,6 +571,7 @@
 				C1824E311886108C00C9294E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C1824E321886108C00C9294E /* Build configuration list for PBXNativeTarget "EskimoRunnerTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +580,7 @@
 				C1824E341886108C00C9294E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
